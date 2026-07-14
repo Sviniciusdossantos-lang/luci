@@ -1,5 +1,7 @@
 # 🟣 Luci — Validação de Renda PJ via Open Finance
 
+![Luci - Fluxo de dados via Open Finance](docs/images/hf_20260714_091654_124d96d9-8d3c-4ac1-bf14-4919322c9c66%20%281%29.png)
+
 > **Protótipo de produto** que usa dados de Open Finance para validar a renda de clientes Pessoa Jurídica automaticamente, reduzindo a dependência de envio manual de extratos e documentos durante a análise de crédito.
 
 ---
