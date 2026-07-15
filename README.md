@@ -5,7 +5,7 @@
 
 ![Luci - Fluxo de dados via Open Finance](docs/images/hf_20260714_091654_124d96d9-8d3c-4ac1-bf14-4919322c9c66%20%281%29.png)
 
-> **Protótipo de produto** que usa dados de Open Finance para validar a renda de clientes Pessoa Jurídica automaticamente, reduzindo a dependência de envio manual de extratos e documentos durante a análise de crédito.
+> **Protótipo de produto** que usa dados de Open Finance para validar a renda de clientes Pessoa Jurídica automaticamente, reduzindo a dependência de envio manual de extratos e documentos durante a análise de crédito. Além de validadora, a Luci atua como **agente de IA** que analisa os bancos cadastrados do cliente para apontar a melhor operação financeira disponível.
 
 ---
 
@@ -30,8 +30,13 @@ O **Luci** conecta-se às contas bancárias PJ do cliente via **Open Finance** e
 | 📊 **Organiza contas PJ** | Consolida todas as contas bancárias da empresa em uma visão única |
 | 🔄 **Mapeia fluxo entre contas** | Mostra a comunicação e movimentações entre as contas da empresa |
 | ✅ **Valida renda automaticamente** | Analisa extratos e transações para gerar um score de renda verificável |
+| 🎯 **Recomenda a melhor operação** | Age como agente de IA: compara os bancos cadastrados do cliente e aponta a operação financeira mais vantajosa disponível |
 | 📄 **Elimina envio manual** | Substitui o processo de coleta de documentos por dados estruturados em tempo real |
 | 🔍 **Gera trilha auditável** | Toda análise é rastreável e pode ser revisada por analistas de crédito |
+
+### 🎯 Luci como agente de recomendação
+
+Além do papel de validadora de renda, o Luci é reconhecida por uma segunda função: atuar como **agente de IA** que mapeia todas as contas do cliente conectadas via Open Finance e compara, entre os bancos cadastrados, as condições disponíveis para apontar a operação mais vantajosa para aquele cliente.
 
 ---
 
@@ -67,6 +72,11 @@ Status atual: Em desenvolvimento — MVP
 - [ ] Visualização do fluxo financeiro entre contas
 - [ ] Trilha de auditoria para analistas de crédito
 - [ ] Exportação do relatório de validação
+
+### Fase 5 — Agente de Recomendação
+- [ ] Coleta de condições e produtos oferecidos pelos bancos cadastrados
+- [ ] Motor de comparação e recomendação da melhor operação financeira
+- [ ] Exibição da recomendação no dashboard do cliente
 
 ---
 
